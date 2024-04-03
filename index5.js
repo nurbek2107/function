@@ -9,4 +9,5 @@ function date(year,moth,data,){
     return d
 }
 date(year,moth,data) 
-alert("1970 yilning 1-yanvardan boshlab " + date + " kun o'tgan.");
+    let yil= date(year,moth,data)
+alert("1970 yilning 1-yanvardan boshlab " + yil + " kun o'tgan.");
